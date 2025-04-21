@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'chapter1/chapter1.dart';
 import 'chapter2/chapter2.dart';
+import 'chapter3/chapter3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,6 +30,7 @@ class MyHomePage extends StatelessWidget {
     final List<Map<String, dynamic>> screens = [
       {'title': 'Screen 1', 'widget': const HelloWorldPage()},
       {'title': 'Screen 2', 'widget': const ColumnRowPage()},
+      {'title': 'Screen 3', 'widget': const StackWidgetPage()},
     ];
 
     return Scaffold(
