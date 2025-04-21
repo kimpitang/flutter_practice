@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'chapter1/chapter1.dart';
 import 'chapter2/chapter2.dart';
 import 'chapter3/chapter3.dart';
+import 'chapter4/chapter4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,6 +32,7 @@ class MyHomePage extends StatelessWidget {
       {'title': 'Screen 1', 'widget': const HelloWorldPage()},
       {'title': 'Screen 2', 'widget': const ColumnRowPage()},
       {'title': 'Screen 3', 'widget': const StackWidgetPage()},
+      {'title': 'Screen 4', 'widget': const GestureDetectorPage()},
     ];
 
     return Scaffold(
