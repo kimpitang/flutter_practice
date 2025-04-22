@@ -10,6 +10,7 @@ import 'chapter8/chapter8.dart';
 import 'chapter9/chapter9.dart';
 import 'chapter10/chapter10.dart';
 import 'chapter11/chapter11.dart';
+import 'chapter12/chapter12.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,6 +48,7 @@ class MyHomePage extends StatelessWidget {
       {'title': 'Screen 9', 'widget': const ScrollViewPage()},
       {'title': 'Screen 10', 'widget': const AlignPage()},
       {'title': 'Screen 11', 'widget': const AlertDialogPage()},
+      {'title': 'Screen 12', 'widget': const ImageViewPage()},
     ];
 
     return Scaffold(
