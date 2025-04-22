@@ -5,6 +5,7 @@ import 'chapter3/chapter3.dart';
 import 'chapter4/chapter4.dart';
 import 'chapter5/chapter5.dart';
 import 'chapter6/chapter6.dart';
+import 'chapter7/chapter7.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,6 +38,7 @@ class MyHomePage extends StatelessWidget {
       {'title': 'Screen 4', 'widget': const GestureDetectorPage()},
       {'title': 'Screen 5', 'widget': const ListViewPage()},
       {'title': 'Screen 6', 'widget': const ListViewPage2()},
+      {'title': 'Screen 7', 'widget': const GridViewPage()},
     ];
 
     return Scaffold(
