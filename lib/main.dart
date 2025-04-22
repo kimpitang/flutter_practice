@@ -9,6 +9,7 @@ import 'chapter7/chapter7.dart';
 import 'chapter8/chapter8.dart';
 import 'chapter9/chapter9.dart';
 import 'chapter10/chapter10.dart';
+import 'chapter11/chapter11.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,6 +46,7 @@ class MyHomePage extends StatelessWidget {
       {'title': 'Screen 8', 'widget': const GridViewPage2()},
       {'title': 'Screen 9', 'widget': const ScrollViewPage()},
       {'title': 'Screen 10', 'widget': const AlignPage()},
+      {'title': 'Screen 11', 'widget': const AlertDialogPage()},
     ];
 
     return Scaffold(
@@ -56,8 +58,8 @@ class MyHomePage extends StatelessWidget {
           itemBuilder: (context, index) {
             return ListTile(
               contentPadding: const EdgeInsets.symmetric(
-                vertical: 16.0, // 터치 영역을 더 넓게 설정
-                horizontal: 16.0,
+                vertical: 10.0, // 터치 영역을 더 넓게 설정
+                horizontal: 10.0,
               ),
               title: Text(
                 screens[index]['title'],
