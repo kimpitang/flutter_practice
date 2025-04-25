@@ -17,6 +17,7 @@ import 'chapter15/chapter15.dart';
 import 'chapter16/chapter16.dart';
 import 'chapter18/chapter18.dart';
 import 'chapter19/chapter19.dart';
+import 'chapter20/chapter20.dart';
 
 void main() {
   runApp(const MyApp());
@@ -62,6 +63,7 @@ class MyHomePage extends StatelessWidget {
           {'title': 'Screen 16', 'widget': const NavigatorPage()},
           {'title': 'Screen 18', 'widget': const FuturePage()},
           {'title': 'Screen 19', 'widget': const SharedPreferencesPage()},
+          {'title': 'Screen 20', 'widget': const BottomNavigationBarPage()},
         ].reversed.toList();
 
     return Scaffold(
