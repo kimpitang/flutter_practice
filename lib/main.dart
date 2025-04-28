@@ -20,6 +20,7 @@ import 'chapter19/chapter19.dart';
 import 'chapter20/chapter20.dart';
 import 'chapter21/chapter21.dart';
 import 'chapter22/view/album_view.dart';
+import 'chapter23/chapter23.dart';
 
 void main() {
   runApp(const MyApp());
@@ -68,6 +69,7 @@ class MyHomePage extends StatelessWidget {
           {'title': 'Screen 20', 'widget': const BottomNavigationBarPage()},
           {'title': 'Screen 21', 'widget': const SwipeRefreshPage()},
           {'title': 'Screen 22', 'widget': const AlbumView()},
+          {'title': 'Screen 23', 'widget': const ProviderPage()},
         ].reversed.toList();
 
     return Scaffold(
