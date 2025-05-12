@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/chapter24/chapter24.dart';
 import 'chapter1/chapter1.dart';
 import 'chapter2/chapter2.dart';
 import 'chapter3/chapter3.dart';
@@ -21,6 +22,7 @@ import 'chapter20/chapter20.dart';
 import 'chapter21/chapter21.dart';
 import 'chapter22/view/album_view.dart';
 import 'chapter23/chapter23.dart';
+import 'chapter24/chapter24.dart';
 
 void main() {
   runApp(const MyApp());
@@ -70,6 +72,7 @@ class MyHomePage extends StatelessWidget {
           {'title': 'Screen 21', 'widget': const SwipeRefreshPage()},
           {'title': 'Screen 22', 'widget': const AlbumView()},
           {'title': 'Screen 23', 'widget': const ProviderPage()},
+          {'title': 'Screen 24', 'widget': const AlbumPage()},
         ].reversed.toList();
 
     return Scaffold(
